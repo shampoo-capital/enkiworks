@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Enki Systems LLC</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #f5f5f2;
+    color: #111;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: min(1200px, 90vw);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 120px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 420px;
+    max-width: 100%;
+    height: auto;
+}
+
+.content h1 {
+    margin: 0 0 48px;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.content p {
+    margin: 0 0 24px;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 900px) {
+    .container {
+        grid-template-columns: 1fr;
+        gap: 80px;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 32px;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="logo">
+        <img src="logo.svg" alt="Enki Systems LLC">
+    </div>
+
+    <div class="content">
+        <h1>Enki Systems LLC</h1>
+
+        <p>
+            Software development and technical systems.
+        </p>
+
+        <p>
+            Client work, partner work, and internal work.
+        </p>
+
+        <p>
+            <a href="mailto:simon@enkiworks.com">
+                simon@enkiworks.com
+            </a>
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
